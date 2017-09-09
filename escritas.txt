@@ -1,0 +1,34 @@
+------>HTML
+
+
+data-value atributo customizado
+
+--------------------------------------------------------------------
+------>JS
+
+
+window.onload inicia esta função apenas quando a página é carregada!
+dataset buscar valor customizado
+
+
+// Para verificar se uma variável não é nula deixe ela só num if
+
+--------------------------------------------------------------------
+------>CSS
+
+position: absolute para sobrepor uma coisa a outra
+border: outset projeta o elemento pra fora dando impressão de alto 
+relevo
+border: inset projeta o elemento pra dentro dando impressão de baixo 
+relevo
+box-shadow cria uma sombra
+hover configuração para quando passar o mouse no elemento
+
+
+// @font-face para integrar uma nova fonte
+@font-face {
+    font-family: exemplo;
+    src: url('exemplo.ttf');
+}
+
+--------------------------------------------------------------------

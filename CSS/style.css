@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+@font-face {
+    font-family: AlphaWood;
+    src: url('AlphaWood.ttf');
+}
+body {
+    background-color: #000;
+}
+.panel {
+    width: 500px;
+    height: 500px;
+    border-radius: 400px;
+}
+#container {
+    position: relative;
+    margin: 50px auto;
+    background-color: #000;
+    border: outset #0f0;
+    box-shadow: 2px 2px 50px rgba(0,255,0,0.5);
+}
+.tile {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    /* para manipular depois as peças com js no container é importante que está posição seja absolute */
+    background-color: silver;
+    border-radius: 10px;
+}
+/* hover configuração para quando passar o mouse no elemento */
+.tile:hover {
+    border: inset;
+    border-radius: 10px;
+}
+h1 {
+    font: 50px AlphaWood;
+    color: #ffffff;
+    position: absolute;
+    text-shadow: 2px 2px 100px rgba(0,255,0,0.7);
+}
