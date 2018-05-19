@@ -15,6 +15,30 @@ body {
     height: 500px;
     border-radius: 400px;
 }
+.modal {
+    position: absolute;
+    transition: all .5s;
+}
+#startScreen {
+    height: 300px;
+    width: 300px;
+    background: url('../IMG/start.png') no-repeat;
+    left: 100px;
+    top: 100px;
+    border-radius: 0;
+    opacity: 1;
+    z-index: 1;
+}
+#overScreen {
+    height: 300px;
+    width: 300px;
+    background: url('../IMG/win.png') no-repeat;
+    left: 100px;
+    top: 100px;
+    border-radius: 0;
+    opacity: 0;
+    z-index: -1;
+}
 #container {
     position: relative;
     margin: 50px auto;
@@ -29,6 +53,7 @@ body {
     /* para manipular depois as peças com js no container é importante que está posição seja absolute */
     background-color: silver;
     border-radius: 10px;
+    transition: left .5s,top .5s;
 }
 /* hover configuração para quando passar o mouse no elemento */
 .tile:hover {
