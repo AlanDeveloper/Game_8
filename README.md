@@ -1,1 +1,1 @@
-Online em https://alandeveloper.github.io/Jogo-do-8/
+Online em https://alandeveloper.github.io/Game_8/
